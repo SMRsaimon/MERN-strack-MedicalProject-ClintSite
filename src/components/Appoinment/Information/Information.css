@@ -1,0 +1,40 @@
+.card-container-services {
+  height: 200px;
+  background-color: var(--brand-color);
+  width: 100%;
+  position: relative;
+}
+.contant-left {
+  margin-left: -17px;
+}
+.contant-right {
+  margin-left: 17px;
+}
+
+.iconServices {
+  font-size: 50px;
+  color: white;
+}
+.iconContainer {
+  width: 30%;
+}
+.iconContainer::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 159px;
+  top: 25px;
+  left: 87px;
+  z-index: 3;
+  background-color: #fff;
+}
+.infoImg {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 900px) {
+  .contant-right {
+    margin-left: -17px;
+  }
+}

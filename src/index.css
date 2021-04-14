@@ -1,13 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+/* ------x------- Global Classes -------x-------*/
+/* 
+html {
+  font-size: 90%;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 75%;
+  }
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-size: 1rem;
+}
+h1 {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 2.1rem;
+  font-weight: 600;
+}
+h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+h6 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+span {
+  font-size: 0.8rem;
+  font-weight: 500;
+} */
+/* classes  */
+
+.card-color {
+  color: var(--brand-card);
+}
+.brand-color {
+  color: var(--brand-color);
+}
+.text-gray {
+  color: var(--text-gray);
+}
+.text-dark {
+  color: var(--text-dark);
+}
+.text-light {
+  color: var(--text-light);
+}
+a:active {
+  color: var(--brand-color) !important;
+}
+:root {
+  /* dynamic color */
+  --text-light: #ffffff;
+  --text-gray: #3f4954;
+  --text-dark: #050505da;
+  --brand-color: #27a8c6;
+  --card-color: #03a3c7;
+  --bg-color: #374858;
+  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+  /* theme font-family   */
+  --Abel: "Abel", cursive;
+  --Anton: "Anton", cursive;
+  --Josefin: "Josefin", cursive;
+  --Lexend: "Lexend", cursive;
+  --Livvic: "Livvic", cursive;
+}
+
+/* using color  */
+/* color: var(--text-gray); */
+/* ------x------- Global Classes -------x-------*/
