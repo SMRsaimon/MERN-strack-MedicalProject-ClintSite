@@ -1,0 +1,38 @@
+.form-part {
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px 20px;
+  font-weight: 500;
+}
+
+.form-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-alternative img {
+  width: 30px;
+  height: 30px;
+}
+
+.login-alternative button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 500;
+  border: 1px solid gray;
+  border-radius: 35px;
+  width: 100%;
+  padding: 7px 20px;
+  margin-bottom: 10px;
+}
+
+.loInButton {
+  width: 100%;
+  background-color: #0062cc;
+  padding: 8px;
+  color: white;
+  font-weight: 700;
+  border: none;
+}

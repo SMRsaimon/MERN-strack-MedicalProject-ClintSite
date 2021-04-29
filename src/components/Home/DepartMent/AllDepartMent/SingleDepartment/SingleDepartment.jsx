@@ -4,10 +4,10 @@ const SingleDepartment = ({ department }) => {
   const { description, Name, img } = department;
   return (
     <div className="row">
-      <div className="col-4 details-imgContainer">
+      <div className="col-md-4 details-imgContainer">
         <img src={img} alt="" srcset="" />
       </div>
-      <div className="col-8 mt-5">
+      <div className="col-md-8 mt-5">
         <h2 classname="text-center">{Name} </h2>
 
         <p>{description}</p>
