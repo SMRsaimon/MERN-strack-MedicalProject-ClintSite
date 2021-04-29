@@ -27,7 +27,10 @@ const AllBooking = () => {
 
   console.log(cancel);
   return (
-    <div className="container">
+    <div className="container allBooking-wrapper">
+      <h2 className="text-center pb-4">
+        <h2 className="d-inline-block brand-color"> Appoinment </h2> History
+      </h2>
       <Table striped bordered hover size="sm">
         <thead>
           <tr>
