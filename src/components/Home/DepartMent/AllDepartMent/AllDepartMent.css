@@ -1,0 +1,27 @@
+.img-button-container {
+}
+.single-img-wrapper {
+  width: 140px;
+  height: 120px;
+  border: 3px solid var(--brand-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.single-img-wrapper img {
+  width: 68px;
+
+  display: block;
+
+  margin: 0 auto;
+}
+.background-color-gray {
+  background-color: #80808038;
+}
+
+.details-imgContainer img {
+  width: 200px;
+}

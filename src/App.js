@@ -9,6 +9,7 @@ import Home from './components/Home/Home/Home';
 import Navigation from './components/Home/Navigation/Navigation';
 import AbailableAppoinment from './components/Appoinment/AppoinmentFrom/AbailableAppoinment/AbailableAppoinment';
 import { createContext, useState } from 'react';
+import AllBooking from './components/Appoinment/AppoinmentFrom/AbailableAppoinment/AllBooking/AllBooking';
 
 
 export const userContext = createContext();
@@ -27,6 +28,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Home></Home>
+
           </Route>
           <Route path="/home">
             <Home></Home>
@@ -34,6 +36,10 @@ function App() {
           <Route path='/abailable-appoinment'>
             <Navigation />
             <AbailableAppoinment></AbailableAppoinment>
+          </Route>
+          <Route path='/Appoinment'>
+            <Navigation />
+            <AllBooking />
           </Route>
         </Switch>
       </Router>

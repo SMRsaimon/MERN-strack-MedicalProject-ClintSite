@@ -68,7 +68,8 @@ const AppoinmentFrom = () => {
               <option value="Ophthalmology">Ophthalmology</option>
               <option value="Fiadiology">Fiadiology</option>
             </select>
-            <label for="name">Doctor Name*:</label>
+            <br />
+            <label for="name">Doctor's Name*:</label>
             <input
               type="text"
               id="name"

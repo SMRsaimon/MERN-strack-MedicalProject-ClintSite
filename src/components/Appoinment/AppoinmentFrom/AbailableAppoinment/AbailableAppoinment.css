@@ -1,3 +1,16 @@
 .booking-card-container {
   width: 200px;
 }
+.booking-card-container span {
+  font-size: 14px;
+}
+
+.booking-card-container .btn-outline-primary:hover {
+  color: white;
+  background-color: var(--brand-color) !important;
+}
+.booking-card-container .btn-outline-primary {
+  color: var(--brand-color);
+
+  border-color: var(--brand-color) !important;
+}

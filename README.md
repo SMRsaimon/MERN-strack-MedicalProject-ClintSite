@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# Getting Started with MERN Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+MERN Stack medical project [SAIMON MEDICAL CENTER](saimon-health-cear.web.app/).
